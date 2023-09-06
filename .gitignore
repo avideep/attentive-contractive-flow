@@ -3,7 +3,6 @@
 data/*
 pretrained_models
 *.jpg
-*.png
 experiments/*
 experimemts_dot/*
 *logs*
