@@ -1,7 +1,11 @@
-# Residual Flows for Invertible Generative Modeling [[arxiv](https://arxiv.org/abs/1906.02735)]
+# Attentive Contractive Flow with Lipschitz-constrained Self-Attention [[arxiv](https://arxiv.org/abs/2109.12135)]
 
 <p align="center">
-<img align="middle" src="./assets/flow_comparison.jpg" width="666" />
+<img align="middle" src="./assets/resflow-comp.png" width="666" />
+</p>
+
+<p align="center">
+<img align="middle" src="assets/acf-comp.png" width="666" />
 </p>
 
 Building on the use of [Invertible Residual Networks](https://arxiv.org/abs/1811.00995) in generative modeling, we propose:
