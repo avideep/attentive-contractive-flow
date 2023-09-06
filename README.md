@@ -11,6 +11,11 @@
   </div>
 </div>
 
+| Samples from Residual Flow         |  Samples from Attentive Contractive Flow    |
+| --------------------------- | --------------------------- |
+| ![Samples from Residual Flow](./assets/resflow-comp.png)      | ![Samples from Attentive Contractive Flow](./assets/acf-comp.png)      |
+
+
 Building on the use of [Invertible Residual Networks](https://arxiv.org/abs/1811.00995) in generative modeling, we propose:
 + Unbiased estimation of the log-density of samples.
 + Memory-efficient reformulation of the gradients.
