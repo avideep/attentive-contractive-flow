@@ -72,8 +72,8 @@ python train_img.py --data celebahq --imagesize 256 --nbits 5 --actnorm True --a
 ## BibTeX
 ```
 @misc{mukherjee2021attentive,
-      title={Attentive Contractive Flow: Improved Contractive Flows with Lipschitz-constrained Self-Attention}, 
-      author={Avideep Mukherjee and Badri Narayan Patro and Sahil Sidheekh and Maneesh Singh and Vinay P. Namboodiri},
+      title={Attentive Contractive Flow with Lipschitz-constrained Self-Attention}, 
+      author={Avideep Mukherjee and Badri Narayan Patro and Vinay P. Namboodiri},
       year={2021},
       eprint={2109.12135},
       archivePrefix={arXiv},
