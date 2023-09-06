@@ -8,6 +8,17 @@
 <img align="middle" src="assets/acf-comp.png" width="666" />
 </p>
 
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="flex: 1; padding: 10px;">
+    <img src="./assets/resflow-comp.png" alt="Image 1" width="300" height="200">
+    <p style="text-align: center;">Caption for Image 1</p>
+  </div>
+  <div style="flex: 1; padding: 10px;">
+    <img src="./assets/acf-comp.png" alt="Image 2" width="300" height="200">
+    <p style="text-align: center;">Caption for Image 2</p>
+  </div>
+</div>
+
 Building on the use of [Invertible Residual Networks](https://arxiv.org/abs/1811.00995) in generative modeling, we propose:
 + Unbiased estimation of the log-density of samples.
 + Memory-efficient reformulation of the gradients.
