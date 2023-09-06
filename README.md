@@ -9,16 +9,11 @@
 | ![Samples from Residual Flow](./assets/resflow-comp.png)      | ![Samples from Attentive Contractive Flow](./assets/acf-comp.png)      |
 
 
-Building on the use of [Invertible Residual Networks](https://arxiv.org/abs/1811.00995) in generative modeling, we propose:
-+ Unbiased estimation of the log-density of samples.
-+ Memory-efficient reformulation of the gradients.
-+ LipSwish activation function.
+Building on the use of [Residual Flow](https://arxiv.org/abs/1811.00995) and other similar contractive normalizing flows in generative modeling, we propose:
++ Using a lipschitz constrained self attention mechanism that attends over the whole image at once.
++ Use of two kinds of lipschitz continuous self attention function: The $$L_2$$ Self Attention and the Lipschitz Normalization Scheme of Self Attention.
 
 As a result, Residual Flows scale to much larger networks and datasets.
-
-<p align="center">
-<img align="middle" src="./assets/celebahq_resflow.jpg" width="512" />
-</p>
 
 ## Requirements
 
@@ -73,14 +68,6 @@ CelebAHQ 256x256:
 ```
 python train_img.py --data celebahq --imagesize 256 --nbits 5 --actnorm True --act elu --batchsize 8 --update-freq 5 --n-exact-terms 8 --fc-end False --factor-out True --squeeze-first True --nblocks 16-16-16-16-16-16 --save experiments/celebahq256
 ```
-
-## Pretrained Models
-
-Model checkpoints can be downloaded from [releases](https://github.com/rtqichen/residual-flows/releases/latest).
-
-Use the argument `--resume [checkpt.pth]` to evaluate or sample from the model. 
-
-Each checkpoint contains two sets of parameters, one from training and one containing the exponential moving average (EMA) accumulated over the course of training. Scripts will automatically use the EMA parameters for evaluation and sampling.
 
 ## BibTeX
 ```
