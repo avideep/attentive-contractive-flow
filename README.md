@@ -2,7 +2,7 @@
 
 ## Architecture:
 
-![Main Diagram](./assets/main.png)
+![Main Diagram](./assets/main.jpg)
 
 
 Building on the use of [Residual Flow](https://arxiv.org/abs/1906.02735) and other similar contractive normalizing flows in generative modeling, we propose:

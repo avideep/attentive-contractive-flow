@@ -2,7 +2,6 @@
 *__pycache__*
 data/*
 pretrained_models
-*.jpg
 experiments/*
 experimemts_dot/*
 *logs*
