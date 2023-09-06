@@ -5,7 +5,7 @@
 ![Main Diagram](./assets/main.png)
 
 
-Building on the use of [Residual Flow](https://arxiv.org/abs/1811.00995) and other similar contractive normalizing flows in generative modeling, we propose:
+Building on the use of [Residual Flow](https://arxiv.org/abs/1906.02735) and other similar contractive normalizing flows in generative modeling, we propose:
 + Using a lipschitz constrained self attention mechanism that attends over the whole image at once.
 + Use of two kinds of lipschitz continuous self attention function: The $$L_2$$ Self Attention and the Lipschitz Normalization Scheme of Self Attention.
 
@@ -71,10 +71,12 @@ python train_img.py --data celebahq --imagesize 256 --nbits 5 --actnorm True --a
 
 ## BibTeX
 ```
-@inproceedings{chen2019residualflows,
-  title={Residual Flows for Invertible Generative Modeling},
-  author={Chen, Ricky T. Q. and Behrmann, Jens and Duvenaud, David and Jacobsen, J{\"{o}}rn{-}Henrik},
-  booktitle = {Advances in Neural Information Processing Systems},
-  year={2019}
+@misc{mukherjee2021attentive,
+      title={Attentive Contractive Flow: Improved Contractive Flows with Lipschitz-constrained Self-Attention}, 
+      author={Avideep Mukherjee and Badri Narayan Patro and Sahil Sidheekh and Maneesh Singh and Vinay P. Namboodiri},
+      year={2021},
+      eprint={2109.12135},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
