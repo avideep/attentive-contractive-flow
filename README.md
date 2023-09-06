@@ -4,16 +4,16 @@
 
 ![Main Diagram](./assets/main.png)
 
-| Samples from Residual Flow         |  Samples from Attentive Contractive Flow    |
-| --------------------------- | --------------------------- |
-| ![Samples from Residual Flow](./assets/resflow-comp.png)      | ![Samples from Attentive Contractive Flow](./assets/acf-comp.png)      |
-
 
 Building on the use of [Residual Flow](https://arxiv.org/abs/1811.00995) and other similar contractive normalizing flows in generative modeling, we propose:
 + Using a lipschitz constrained self attention mechanism that attends over the whole image at once.
 + Use of two kinds of lipschitz continuous self attention function: The $$L_2$$ Self Attention and the Lipschitz Normalization Scheme of Self Attention.
 
-As a result, Residual Flows scale to much larger networks and datasets.
+As a result, Attentive Contractive Flows offer better expresivity and outperforms or becomes competitive with state-of-the-art contractive flow methods.
+
+| Samples from Residual Flow         |  Samples from Attentive Contractive Flow    |
+| --------------------------- | --------------------------- |
+| ![Samples from Residual Flow](./assets/resflow-comp.png)      | ![Samples from Attentive Contractive Flow](./assets/acf-comp.png)|
 
 ## Requirements
 
