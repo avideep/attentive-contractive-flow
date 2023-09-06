@@ -1,21 +1,13 @@
 # Attentive Contractive Flow with Lipschitz-constrained Self-Attention [[arxiv](https://arxiv.org/abs/2109.12135)]
 
-<p align="center">
-<img align="middle" src="./assets/resflow-comp.png" width="666" />
-</p>
-
-<p align="center">
-<img align="middle" src="assets/acf-comp.png" width="666" />
-</p>
-
 <div style="display: flex; justify-content: center; align-items: center;">
   <div style="flex: 1; padding: 10px;">
-    <img src="./assets/resflow-comp.png" alt="Image 1" width="300" height="200">
-    <p style="text-align: center;">Caption for Image 1</p>
+    <img src="./assets/resflow-comp.png" alt="Samples from Residual Flow" width="300" height="200">
+    <p style="text-align: center;">Samples from Residual Flow</p>
   </div>
   <div style="flex: 1; padding: 10px;">
-    <img src="./assets/acf-comp.png" alt="Image 2" width="300" height="200">
-    <p style="text-align: center;">Caption for Image 2</p>
+    <img src="./assets/acf-comp.png" alt="Samples from Attentive Contractive Flow" width="300" height="200">
+    <p style="text-align: center;">Samples from Attentive Contractive Flow</p>
   </div>
 </div>
 
